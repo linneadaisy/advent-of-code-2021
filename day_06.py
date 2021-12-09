@@ -20,4 +20,4 @@ with open("inputs/06.txt") as _file:
     initFishes = [int(fc) for fc in file_contents.split(',')]
 
     print('Part1 sum:', makeFishes(80))
-    print('Part2 sum:', makeFishes(265))
+    print('Part2 sum:', makeFishes(256))
